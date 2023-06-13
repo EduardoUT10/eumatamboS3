@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="eumatamboS3.Ejemplo1">
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource stackLayoutStyle}">
+            <Label Text="Semana 3" FontSize="18" HorizontalTextAlignment="Center"
+                />
+
+            <Entry x:Name="txtDatoUno" Placeholder="Dato1" />
+            <Entry x:Name="txtDatoDos" Placeholder="Dato dos" Keyboard="Numeric" />
+            <Button x:Name="btnabrir" Text="ABRIR" Clicked="btnabrir_Clicked" />
+            
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

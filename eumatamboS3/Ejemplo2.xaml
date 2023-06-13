@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="eumatamboS3.Ejemplo2">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property = "TextColor" Value="Orange" />
+                <Setter Property = "FontSize"  Value="20" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource stackLayoutStyle}">
+            <Label Text="Semana 3" FontSize="18" Style="{StaticResource labelStyle}"/>
+            <Label x:Name="lblDatoUno" TextColor="Red" />
+            <Label x:Name="lblDatoDos" TextColor="Blue" />
+            <Button x:Name="btnAbrir" Text="Abrir" Clicked="btnAbrir_Clicked"  />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
